@@ -1,0 +1,19 @@
+package com.rays.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.rays.dao.UserDAOInt;
+import com.rays.dto.UserDTO;
+
+public class UserServiceImpl implements UserServiceInt {
+
+	@Autowired
+	protected UserDAOInt userDao;
+
+	@Override
+	public long add(UserDTO dto) {
+		long id = userDao.register(dto);
+		return id;
+	}
+
+}

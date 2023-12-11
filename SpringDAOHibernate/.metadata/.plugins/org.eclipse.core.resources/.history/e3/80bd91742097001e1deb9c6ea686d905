@@ -1,0 +1,33 @@
+<%@page import="com.rays.dto.UserDTO"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ page isELIgnored="false"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<marquee scrollamount="15" behavior="alternate">
+		<h2 style="color: blue">Welcome to My Web-page!!!</h2>
+	</marquee>
+	<br>
+	<marquee scrollamount="20" behavior="alternate">
+		<h2 style="color: red">${msg}</h2>
+	</marquee>
+	<%
+		UserDTO dto = (UserDTO) session.getAttribute("user");
+		if (dto != null) {
+	%>
+	<hr>
+	<h2>
+		Hi,
+		<%=dto.getFirstName()%></h2>
+	<%
+		}
+	%>
+
+</body>
+</html>

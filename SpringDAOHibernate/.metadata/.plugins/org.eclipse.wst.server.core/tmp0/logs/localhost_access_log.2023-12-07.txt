@@ -1,0 +1,9 @@
+127.0.0.1 - - [07/Dec/2023:15:48:34 -1200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Dec/2023:15:48:34 -1200] "GET /SpringMVC/WEB-INF/classes/com/rays/ctl/WelcomeCtl.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [07/Dec/2023:15:48:34 -1200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [07/Dec/2023:15:48:49 -1200] "GET /SpringMVC/WEB-INF/classes/com/rays/ctl/Welcome HTTP/1.1" 404 682
+127.0.0.1 - - [07/Dec/2023:15:49:24 -1200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Dec/2023:15:49:27 -1200] "GET /SpringMVC/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [07/Dec/2023:15:49:33 -1200] "GET /SpringMVC/Welcome HTTP/1.1" 200 194
+0:0:0:0:0:0:0:1 - - [07/Dec/2023:15:51:44 -1200] "GET /SpringMVC/Welcome HTTP/1.1" 200 253
+0:0:0:0:0:0:0:1 - - [07/Dec/2023:15:52:26 -1200] "GET /SpringMVC/Welcome HTTP/1.1" 200 253

@@ -1,0 +1,13 @@
+package com.rays.ctl;
+
+public class WelcomeCtl {
+	
+	public static void main(String[] args) {
+		
+		public String display() {
+		return "Welcome";	
+		}
+		
+	}
+
+}

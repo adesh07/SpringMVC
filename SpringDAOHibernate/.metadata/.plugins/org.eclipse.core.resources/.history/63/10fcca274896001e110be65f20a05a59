@@ -1,0 +1,18 @@
+package com.rays.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.rays.dto.UserDTO;
+
+public class UserServiceImpl implements UserServiceInt {
+	
+	@Autowired
+	
+
+	@Override
+	public long add(UserDTO dto) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

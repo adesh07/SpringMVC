@@ -1,0 +1,17 @@
+package com.rays.dao;
+
+import com.rays.dto.UserDTO;
+
+public class UserDAOImpl implements UserDAOInt {
+
+	
+	
+	@Override
+	public Long register(UserDTO dto) {
+		
+		return null;
+	}
+
+	
+	
+}

@@ -1,0 +1,16 @@
+package com.rays.ctl;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value = "UserRegister")
+public class UserRegistrationCtl {
+
+	@GetMapping
+	public String display() {
+		return "UserRegistrationView";
+	}
+
+}

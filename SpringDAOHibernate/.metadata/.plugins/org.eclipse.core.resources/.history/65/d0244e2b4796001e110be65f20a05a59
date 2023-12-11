@@ -1,0 +1,7 @@
+package com.rays.service;
+
+import java.nio.file.attribute.UserPrincipalLookupService;
+
+public class UserServiceImpl implements UserServiceInt {
+
+}

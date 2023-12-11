@@ -1,0 +1,13 @@
+package com.rays.service;
+
+import com.rays.dto.UserDTO;
+
+public class UserServiceImpl implements UserServiceInt {
+
+	@Override
+	public long add(UserDTO dto) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
